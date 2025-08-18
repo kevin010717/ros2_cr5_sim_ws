@@ -1,0 +1,6 @@
+Invoking command in '/home/robot/ros2_node_template_ws/build/cpp_general_pkg': /usr/bin/cmake /home/robot/ros2_node_template_ws/src/cpp_general_pkg -DCMAKE_INSTALL_PREFIX=/home/robot/ros2_node_template_ws/install/cpp_general_pkg
+Invoked command in '/home/robot/ros2_node_template_ws/build/cpp_general_pkg' returned '0': /usr/bin/cmake /home/robot/ros2_node_template_ws/src/cpp_general_pkg -DCMAKE_INSTALL_PREFIX=/home/robot/ros2_node_template_ws/install/cpp_general_pkg
+Invoking command in '/home/robot/ros2_node_template_ws/build/cpp_general_pkg': /usr/bin/cmake --build /home/robot/ros2_node_template_ws/build/cpp_general_pkg -- -j18 -l18
+Invoked command in '/home/robot/ros2_node_template_ws/build/cpp_general_pkg' returned '0': /usr/bin/cmake --build /home/robot/ros2_node_template_ws/build/cpp_general_pkg -- -j18 -l18
+Invoking command in '/home/robot/ros2_node_template_ws/build/cpp_general_pkg': /usr/bin/cmake --install /home/robot/ros2_node_template_ws/build/cpp_general_pkg
+Invoked command in '/home/robot/ros2_node_template_ws/build/cpp_general_pkg' returned '0': /usr/bin/cmake --install /home/robot/ros2_node_template_ws/build/cpp_general_pkg

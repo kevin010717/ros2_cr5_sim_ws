@@ -1,0 +1,115 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-912eff115327a3e204ff.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cpp_general_pkg",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "cpp_general_pkg_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cpp_general_pkg_uninstall-1cd42974df42287d91e7.json",
+					"name" : "cpp_general_pkg_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_client_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_client_node-7ecd63e4ca54018e3334.json",
+					"name" : "simple_client_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_node-2d172616a8edfb45da4c.json",
+					"name" : "simple_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_publisher_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_publisher_node-b2b47a480ba90785ffe0.json",
+					"name" : "simple_publisher_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_server_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_server_node-2ee35271950a2c8ce6cc.json",
+					"name" : "simple_server_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_subscriber_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_subscriber_node-51a03611a38af3c96d57.json",
+					"name" : "simple_subscriber_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-f4192dfda4ce41d3ac62.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/robot/ros2_node_template_ws/build/cpp_general_pkg",
+		"source" : "/home/robot/ros2_node_template_ws/src/cpp_general_pkg"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

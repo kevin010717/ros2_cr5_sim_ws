@@ -1,0 +1,26 @@
+[ 40%] Built target simple_server_node
+[ 40%] Built target simple_subscriber_node
+[ 60%] Built target simple_client_node
+[ 80%] Built target simple_publisher_node
+[100%] Built target simple_node
+-- Install configuration: ""
+-- Up-to-date: /home/robot/ros2_node_template_ws/install/cpp_general_pkg/lib/cpp_general_pkg/simple_node
+-- Up-to-date: /home/robot/ros2_node_template_ws/install/cpp_general_pkg/lib/cpp_general_pkg/simple_publisher_node
+-- Up-to-date: /home/robot/ros2_node_template_ws/install/cpp_general_pkg/lib/cpp_general_pkg/simple_subscriber_node
+-- Up-to-date: /home/robot/ros2_node_template_ws/install/cpp_general_pkg/lib/cpp_general_pkg/simple_server_node
+-- Up-to-date: /home/robot/ros2_node_template_ws/install/cpp_general_pkg/lib/cpp_general_pkg/simple_client_node
+-- Up-to-date: /home/robot/ros2_node_template_ws/install/cpp_general_pkg/share/ament_index/resource_index/package_run_dependencies/cpp_general_pkg
+-- Up-to-date: /home/robot/ros2_node_template_ws/install/cpp_general_pkg/share/ament_index/resource_index/parent_prefix_path/cpp_general_pkg
+-- Up-to-date: /home/robot/ros2_node_template_ws/install/cpp_general_pkg/share/cpp_general_pkg/environment/ament_prefix_path.sh
+-- Up-to-date: /home/robot/ros2_node_template_ws/install/cpp_general_pkg/share/cpp_general_pkg/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/robot/ros2_node_template_ws/install/cpp_general_pkg/share/cpp_general_pkg/environment/path.sh
+-- Up-to-date: /home/robot/ros2_node_template_ws/install/cpp_general_pkg/share/cpp_general_pkg/environment/path.dsv
+-- Up-to-date: /home/robot/ros2_node_template_ws/install/cpp_general_pkg/share/cpp_general_pkg/local_setup.bash
+-- Up-to-date: /home/robot/ros2_node_template_ws/install/cpp_general_pkg/share/cpp_general_pkg/local_setup.sh
+-- Up-to-date: /home/robot/ros2_node_template_ws/install/cpp_general_pkg/share/cpp_general_pkg/local_setup.zsh
+-- Up-to-date: /home/robot/ros2_node_template_ws/install/cpp_general_pkg/share/cpp_general_pkg/local_setup.dsv
+-- Installing: /home/robot/ros2_node_template_ws/install/cpp_general_pkg/share/cpp_general_pkg/package.dsv
+-- Up-to-date: /home/robot/ros2_node_template_ws/install/cpp_general_pkg/share/ament_index/resource_index/packages/cpp_general_pkg
+-- Up-to-date: /home/robot/ros2_node_template_ws/install/cpp_general_pkg/share/cpp_general_pkg/cmake/cpp_general_pkgConfig.cmake
+-- Up-to-date: /home/robot/ros2_node_template_ws/install/cpp_general_pkg/share/cpp_general_pkg/cmake/cpp_general_pkgConfig-version.cmake
+-- Up-to-date: /home/robot/ros2_node_template_ws/install/cpp_general_pkg/share/cpp_general_pkg/package.xml

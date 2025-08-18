@@ -1,0 +1,55 @@
+[0.510s] Invoking command in '/home/robot/ros2_node_template_ws/src/python_general_pkg': PYTHONPATH=/home/robot/ros2_node_template_ws/build/python_general_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/ros2_node_template_ws/install/python_general_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/python_general_pkg build --build-base /home/robot/ros2_node_template_ws/build/python_general_pkg/build install --record /home/robot/ros2_node_template_ws/build/python_general_pkg/install.log --single-version-externally-managed install_data
+[0.694s] running egg_info
+[0.695s] creating ../../build/python_general_pkg/python_general_pkg.egg-info
+[0.695s] writing ../../build/python_general_pkg/python_general_pkg.egg-info/PKG-INFO
+[0.695s] writing dependency_links to ../../build/python_general_pkg/python_general_pkg.egg-info/dependency_links.txt
+[0.695s] writing entry points to ../../build/python_general_pkg/python_general_pkg.egg-info/entry_points.txt
+[0.695s] writing requirements to ../../build/python_general_pkg/python_general_pkg.egg-info/requires.txt
+[0.695s] writing top-level names to ../../build/python_general_pkg/python_general_pkg.egg-info/top_level.txt
+[0.695s] writing manifest file '../../build/python_general_pkg/python_general_pkg.egg-info/SOURCES.txt'
+[0.697s] reading manifest file '../../build/python_general_pkg/python_general_pkg.egg-info/SOURCES.txt'
+[0.697s] writing manifest file '../../build/python_general_pkg/python_general_pkg.egg-info/SOURCES.txt'
+[0.697s] running build
+[0.697s] running build_py
+[0.698s] creating /home/robot/ros2_node_template_ws/build/python_general_pkg/build
+[0.698s] creating /home/robot/ros2_node_template_ws/build/python_general_pkg/build/lib
+[0.698s] creating /home/robot/ros2_node_template_ws/build/python_general_pkg/build/lib/python_general_pkg
+[0.698s] copying python_general_pkg/__init__.py -> /home/robot/ros2_node_template_ws/build/python_general_pkg/build/lib/python_general_pkg
+[0.698s] copying python_general_pkg/simple_server_node.py -> /home/robot/ros2_node_template_ws/build/python_general_pkg/build/lib/python_general_pkg
+[0.698s] copying python_general_pkg/simple_client_node.py -> /home/robot/ros2_node_template_ws/build/python_general_pkg/build/lib/python_general_pkg
+[0.698s] copying python_general_pkg/simple_node.py -> /home/robot/ros2_node_template_ws/build/python_general_pkg/build/lib/python_general_pkg
+[0.698s] copying python_general_pkg/simple_publisher_node.py -> /home/robot/ros2_node_template_ws/build/python_general_pkg/build/lib/python_general_pkg
+[0.698s] copying python_general_pkg/simple_subscriber_node.py -> /home/robot/ros2_node_template_ws/build/python_general_pkg/build/lib/python_general_pkg
+[0.698s] running install
+[0.698s] running install_lib
+[0.699s] creating /home/robot/ros2_node_template_ws/install/python_general_pkg/lib/python3.10/site-packages/python_general_pkg
+[0.699s] copying /home/robot/ros2_node_template_ws/build/python_general_pkg/build/lib/python_general_pkg/__init__.py -> /home/robot/ros2_node_template_ws/install/python_general_pkg/lib/python3.10/site-packages/python_general_pkg
+[0.699s] copying /home/robot/ros2_node_template_ws/build/python_general_pkg/build/lib/python_general_pkg/simple_server_node.py -> /home/robot/ros2_node_template_ws/install/python_general_pkg/lib/python3.10/site-packages/python_general_pkg
+[0.699s] copying /home/robot/ros2_node_template_ws/build/python_general_pkg/build/lib/python_general_pkg/simple_client_node.py -> /home/robot/ros2_node_template_ws/install/python_general_pkg/lib/python3.10/site-packages/python_general_pkg
+[0.699s] copying /home/robot/ros2_node_template_ws/build/python_general_pkg/build/lib/python_general_pkg/simple_node.py -> /home/robot/ros2_node_template_ws/install/python_general_pkg/lib/python3.10/site-packages/python_general_pkg
+[0.699s] copying /home/robot/ros2_node_template_ws/build/python_general_pkg/build/lib/python_general_pkg/simple_publisher_node.py -> /home/robot/ros2_node_template_ws/install/python_general_pkg/lib/python3.10/site-packages/python_general_pkg
+[0.699s] copying /home/robot/ros2_node_template_ws/build/python_general_pkg/build/lib/python_general_pkg/simple_subscriber_node.py -> /home/robot/ros2_node_template_ws/install/python_general_pkg/lib/python3.10/site-packages/python_general_pkg
+[0.700s] byte-compiling /home/robot/ros2_node_template_ws/install/python_general_pkg/lib/python3.10/site-packages/python_general_pkg/__init__.py to __init__.cpython-310.pyc
+[0.700s] byte-compiling /home/robot/ros2_node_template_ws/install/python_general_pkg/lib/python3.10/site-packages/python_general_pkg/simple_server_node.py to simple_server_node.cpython-310.pyc
+[0.700s] byte-compiling /home/robot/ros2_node_template_ws/install/python_general_pkg/lib/python3.10/site-packages/python_general_pkg/simple_client_node.py to simple_client_node.cpython-310.pyc
+[0.701s] byte-compiling /home/robot/ros2_node_template_ws/install/python_general_pkg/lib/python3.10/site-packages/python_general_pkg/simple_node.py to simple_node.cpython-310.pyc
+[0.701s] byte-compiling /home/robot/ros2_node_template_ws/install/python_general_pkg/lib/python3.10/site-packages/python_general_pkg/simple_publisher_node.py to simple_publisher_node.cpython-310.pyc
+[0.702s] byte-compiling /home/robot/ros2_node_template_ws/install/python_general_pkg/lib/python3.10/site-packages/python_general_pkg/simple_subscriber_node.py to simple_subscriber_node.cpython-310.pyc
+[0.702s] running install_data
+[0.702s] creating /home/robot/ros2_node_template_ws/install/python_general_pkg/share/ament_index
+[0.702s] creating /home/robot/ros2_node_template_ws/install/python_general_pkg/share/ament_index/resource_index
+[0.702s] creating /home/robot/ros2_node_template_ws/install/python_general_pkg/share/ament_index/resource_index/packages
+[0.702s] copying resource/python_general_pkg -> /home/robot/ros2_node_template_ws/install/python_general_pkg/share/ament_index/resource_index/packages
+[0.702s] copying package.xml -> /home/robot/ros2_node_template_ws/install/python_general_pkg/share/python_general_pkg
+[0.702s] creating /home/robot/ros2_node_template_ws/install/python_general_pkg/share/python_general_pkg/launch
+[0.702s] copying launch/simple_subscriber_or_server.launch.py -> /home/robot/ros2_node_template_ws/install/python_general_pkg/share/python_general_pkg/launch
+[0.703s] running install_egg_info
+[0.705s] Copying ../../build/python_general_pkg/python_general_pkg.egg-info to /home/robot/ros2_node_template_ws/install/python_general_pkg/lib/python3.10/site-packages/python_general_pkg-0.0.0-py3.10.egg-info
+[0.705s] running install_scripts
+[0.721s] Installing simple_client_node script to /home/robot/ros2_node_template_ws/install/python_general_pkg/lib/python_general_pkg
+[0.721s] Installing simple_node script to /home/robot/ros2_node_template_ws/install/python_general_pkg/lib/python_general_pkg
+[0.721s] Installing simple_publisher_node script to /home/robot/ros2_node_template_ws/install/python_general_pkg/lib/python_general_pkg
+[0.721s] Installing simple_server_node script to /home/robot/ros2_node_template_ws/install/python_general_pkg/lib/python_general_pkg
+[0.721s] Installing simple_subscriber_node script to /home/robot/ros2_node_template_ws/install/python_general_pkg/lib/python_general_pkg
+[0.722s] writing list of installed files to '/home/robot/ros2_node_template_ws/build/python_general_pkg/install.log'
+[0.747s] Invoked command in '/home/robot/ros2_node_template_ws/src/python_general_pkg' returned '0': PYTHONPATH=/home/robot/ros2_node_template_ws/build/python_general_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/ros2_node_template_ws/install/python_general_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/python_general_pkg build --build-base /home/robot/ros2_node_template_ws/build/python_general_pkg/build install --record /home/robot/ros2_node_template_ws/build/python_general_pkg/install.log --single-version-externally-managed install_data

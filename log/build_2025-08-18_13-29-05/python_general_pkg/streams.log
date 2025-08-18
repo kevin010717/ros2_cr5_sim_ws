@@ -1,0 +1,28 @@
+[0.388s] Invoking command in '/home/robot/ros2_node_template_ws/src/python_general_pkg': PYTHONPATH=/home/robot/ros2_node_template_ws/build/python_general_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/ros2_node_template_ws/install/python_general_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/python_general_pkg build --build-base /home/robot/ros2_node_template_ws/build/python_general_pkg/build install --record /home/robot/ros2_node_template_ws/build/python_general_pkg/install.log --single-version-externally-managed install_data
+[0.547s] running egg_info
+[0.548s] writing ../../build/python_general_pkg/python_general_pkg.egg-info/PKG-INFO
+[0.548s] writing dependency_links to ../../build/python_general_pkg/python_general_pkg.egg-info/dependency_links.txt
+[0.548s] writing entry points to ../../build/python_general_pkg/python_general_pkg.egg-info/entry_points.txt
+[0.548s] writing requirements to ../../build/python_general_pkg/python_general_pkg.egg-info/requires.txt
+[0.548s] writing top-level names to ../../build/python_general_pkg/python_general_pkg.egg-info/top_level.txt
+[0.549s] reading manifest file '../../build/python_general_pkg/python_general_pkg.egg-info/SOURCES.txt'
+[0.550s] writing manifest file '../../build/python_general_pkg/python_general_pkg.egg-info/SOURCES.txt'
+[0.550s] running build
+[0.550s] running build_py
+[0.550s] copying python_general_pkg/simple_publisher_node.py -> /home/robot/ros2_node_template_ws/build/python_general_pkg/build/lib/python_general_pkg
+[0.550s] running install
+[0.551s] running install_lib
+[0.552s] copying /home/robot/ros2_node_template_ws/build/python_general_pkg/build/lib/python_general_pkg/simple_publisher_node.py -> /home/robot/ros2_node_template_ws/install/python_general_pkg/lib/python3.10/site-packages/python_general_pkg
+[0.552s] byte-compiling /home/robot/ros2_node_template_ws/install/python_general_pkg/lib/python3.10/site-packages/python_general_pkg/simple_publisher_node.py to simple_publisher_node.cpython-310.pyc
+[0.553s] running install_data
+[0.553s] running install_egg_info
+[0.555s] removing '/home/robot/ros2_node_template_ws/install/python_general_pkg/lib/python3.10/site-packages/python_general_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[0.555s] Copying ../../build/python_general_pkg/python_general_pkg.egg-info to /home/robot/ros2_node_template_ws/install/python_general_pkg/lib/python3.10/site-packages/python_general_pkg-0.0.0-py3.10.egg-info
+[0.556s] running install_scripts
+[0.569s] Installing simple_client_node script to /home/robot/ros2_node_template_ws/install/python_general_pkg/lib/python_general_pkg
+[0.569s] Installing simple_node script to /home/robot/ros2_node_template_ws/install/python_general_pkg/lib/python_general_pkg
+[0.569s] Installing simple_publisher_node script to /home/robot/ros2_node_template_ws/install/python_general_pkg/lib/python_general_pkg
+[0.569s] Installing simple_server_node script to /home/robot/ros2_node_template_ws/install/python_general_pkg/lib/python_general_pkg
+[0.569s] Installing simple_subscriber_node script to /home/robot/ros2_node_template_ws/install/python_general_pkg/lib/python_general_pkg
+[0.570s] writing list of installed files to '/home/robot/ros2_node_template_ws/build/python_general_pkg/install.log'
+[0.585s] Invoked command in '/home/robot/ros2_node_template_ws/src/python_general_pkg' returned '0': PYTHONPATH=/home/robot/ros2_node_template_ws/build/python_general_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/ros2_node_template_ws/install/python_general_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/python_general_pkg build --build-base /home/robot/ros2_node_template_ws/build/python_general_pkg/build install --record /home/robot/ros2_node_template_ws/build/python_general_pkg/install.log --single-version-externally-managed install_data

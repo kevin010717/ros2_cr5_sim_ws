@@ -1,0 +1,30 @@
+[0.009s] Invoking command in '/home/robot/ros2_node_template_ws/build/cpp_general_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/ros2_node_template_ws/install/python_general_pkg /usr/bin/cmake --build /home/robot/ros2_node_template_ws/build/cpp_general_pkg -- -j18 -l18
+[0.053s] [ 20%] Built target simple_node
+[0.059s] [ 40%] Built target simple_client_node
+[0.060s] [ 60%] Built target simple_subscriber_node
+[0.062s] [100%] Built target simple_server_node
+[0.062s] [100%] Built target simple_publisher_node
+[0.170s] Invoked command in '/home/robot/ros2_node_template_ws/build/cpp_general_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/ros2_node_template_ws/install/python_general_pkg /usr/bin/cmake --build /home/robot/ros2_node_template_ws/build/cpp_general_pkg -- -j18 -l18
+[0.183s] Invoking command in '/home/robot/ros2_node_template_ws/build/cpp_general_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/ros2_node_template_ws/install/python_general_pkg /usr/bin/cmake --install /home/robot/ros2_node_template_ws/build/cpp_general_pkg
+[0.190s] -- Install configuration: ""
+[0.190s] -- Up-to-date: /home/robot/ros2_node_template_ws/install/cpp_general_pkg/lib/cpp_general_pkg/simple_node
+[0.190s] -- Up-to-date: /home/robot/ros2_node_template_ws/install/cpp_general_pkg/lib/cpp_general_pkg/simple_publisher_node
+[0.190s] -- Up-to-date: /home/robot/ros2_node_template_ws/install/cpp_general_pkg/lib/cpp_general_pkg/simple_subscriber_node
+[0.191s] -- Up-to-date: /home/robot/ros2_node_template_ws/install/cpp_general_pkg/lib/cpp_general_pkg/simple_server_node
+[0.191s] -- Up-to-date: /home/robot/ros2_node_template_ws/install/cpp_general_pkg/lib/cpp_general_pkg/simple_client_node
+[0.191s] -- Up-to-date: /home/robot/ros2_node_template_ws/install/cpp_general_pkg/share/ament_index/resource_index/package_run_dependencies/cpp_general_pkg
+[0.191s] -- Up-to-date: /home/robot/ros2_node_template_ws/install/cpp_general_pkg/share/ament_index/resource_index/parent_prefix_path/cpp_general_pkg
+[0.191s] -- Up-to-date: /home/robot/ros2_node_template_ws/install/cpp_general_pkg/share/cpp_general_pkg/environment/ament_prefix_path.sh
+[0.191s] -- Up-to-date: /home/robot/ros2_node_template_ws/install/cpp_general_pkg/share/cpp_general_pkg/environment/ament_prefix_path.dsv
+[0.191s] -- Up-to-date: /home/robot/ros2_node_template_ws/install/cpp_general_pkg/share/cpp_general_pkg/environment/path.sh
+[0.191s] -- Up-to-date: /home/robot/ros2_node_template_ws/install/cpp_general_pkg/share/cpp_general_pkg/environment/path.dsv
+[0.191s] -- Up-to-date: /home/robot/ros2_node_template_ws/install/cpp_general_pkg/share/cpp_general_pkg/local_setup.bash
+[0.191s] -- Up-to-date: /home/robot/ros2_node_template_ws/install/cpp_general_pkg/share/cpp_general_pkg/local_setup.sh
+[0.191s] -- Up-to-date: /home/robot/ros2_node_template_ws/install/cpp_general_pkg/share/cpp_general_pkg/local_setup.zsh
+[0.191s] -- Up-to-date: /home/robot/ros2_node_template_ws/install/cpp_general_pkg/share/cpp_general_pkg/local_setup.dsv
+[0.191s] -- Installing: /home/robot/ros2_node_template_ws/install/cpp_general_pkg/share/cpp_general_pkg/package.dsv
+[0.191s] -- Up-to-date: /home/robot/ros2_node_template_ws/install/cpp_general_pkg/share/ament_index/resource_index/packages/cpp_general_pkg
+[0.191s] -- Up-to-date: /home/robot/ros2_node_template_ws/install/cpp_general_pkg/share/cpp_general_pkg/cmake/cpp_general_pkgConfig.cmake
+[0.191s] -- Up-to-date: /home/robot/ros2_node_template_ws/install/cpp_general_pkg/share/cpp_general_pkg/cmake/cpp_general_pkgConfig-version.cmake
+[0.191s] -- Up-to-date: /home/robot/ros2_node_template_ws/install/cpp_general_pkg/share/cpp_general_pkg/package.xml
+[0.193s] Invoked command in '/home/robot/ros2_node_template_ws/build/cpp_general_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/ros2_node_template_ws/install/python_general_pkg /usr/bin/cmake --install /home/robot/ros2_node_template_ws/build/cpp_general_pkg

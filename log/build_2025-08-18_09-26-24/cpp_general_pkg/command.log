@@ -1,0 +1,4 @@
+Invoking command in '/home/robot/ros2_node_template_ws/build/cpp_general_pkg': /usr/bin/cmake --build /home/robot/ros2_node_template_ws/build/cpp_general_pkg -- -j18 -l18
+Invoked command in '/home/robot/ros2_node_template_ws/build/cpp_general_pkg' returned '0': /usr/bin/cmake --build /home/robot/ros2_node_template_ws/build/cpp_general_pkg -- -j18 -l18
+Invoking command in '/home/robot/ros2_node_template_ws/build/cpp_general_pkg': /usr/bin/cmake --install /home/robot/ros2_node_template_ws/build/cpp_general_pkg
+Invoked command in '/home/robot/ros2_node_template_ws/build/cpp_general_pkg' returned '0': /usr/bin/cmake --install /home/robot/ros2_node_template_ws/build/cpp_general_pkg

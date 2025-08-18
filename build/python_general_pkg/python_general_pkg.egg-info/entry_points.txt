@@ -1,0 +1,7 @@
+[console_scripts]
+simple_client_node = python_general_pkg.simple_client_node:main
+simple_node = python_general_pkg.simple_node:main
+simple_publisher_node = python_general_pkg.simple_publisher_node:main
+simple_server_node = python_general_pkg.simple_server_node:main
+simple_subscriber_node = python_general_pkg.simple_subscriber_node:main
+
