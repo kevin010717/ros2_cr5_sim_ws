@@ -1,0 +1,40 @@
+[0.018s] Invoking command in '/home/robot/ros2_cr5_sim_ws/build/dexh13_left': /usr/bin/cmake /home/robot/ros2_cr5_sim_ws/urdf/bullet_simulation_pkg/meshes/dexh13_left -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/robot/ros2_cr5_sim_ws/install/dexh13_left
+[0.032s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.032s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[0.032s]   CMake.
+[0.032s] 
+[0.032s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.032s]   CMake that the project does not need compatibility with older versions.
+[0.032s] 
+[0.032s] [0m
+[0.098s] -- The C compiler identification is GNU 11.4.0
+[0.168s] -- The CXX compiler identification is GNU 11.4.0
+[0.176s] -- Detecting C compiler ABI info
+[0.239s] -- Detecting C compiler ABI info - done
+[0.248s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.248s] -- Detecting C compile features
+[0.249s] -- Detecting C compile features - done
+[0.252s] -- Detecting CXX compiler ABI info
+[0.315s] -- Detecting CXX compiler ABI info - done
+[0.323s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.329s] -- Detecting CXX compile features
+[0.329s] -- Detecting CXX compile features - done
+[0.334s] [31mCMake Error at CMakeLists.txt:5 (find_package):
+[0.334s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.335s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.335s]   CMake did not find one.
+[0.335s] 
+[0.335s]   Could not find a package configuration file provided by "catkin" with any
+[0.335s]   of the following names:
+[0.335s] 
+[0.335s]     catkinConfig.cmake
+[0.335s]     catkin-config.cmake
+[0.335s] 
+[0.335s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.335s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.335s]   provides a separate development package or SDK, be sure it has been
+[0.335s]   installed.
+[0.335s] 
+[0.335s] [0m
+[0.335s] -- Configuring incomplete, errors occurred!
+[0.335s] See also "/home/robot/ros2_cr5_sim_ws/build/dexh13_left/CMakeFiles/CMakeOutput.log".

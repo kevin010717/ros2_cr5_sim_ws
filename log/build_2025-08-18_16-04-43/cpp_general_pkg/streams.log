@@ -1,0 +1,6 @@
+[0.018s] Invoking command in '/home/robot/ros2_cr5_sim_ws/build/cpp_general_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/ros2_cr5_sim_ws/install/python_general_pkg /usr/bin/cmake --build /home/robot/ros2_cr5_sim_ws/build/cpp_general_pkg -- -j18 -l18
+[0.035s] [0mCMake Error: The current CMakeCache.txt directory /home/robot/ros2_cr5_sim_ws/build/cpp_general_pkg/CMakeCache.txt is different than the directory /home/robot/ros2_node_template_ws/build/cpp_general_pkg where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0.049s] [0mCMake Error: The source directory "/home/robot/ros2_node_template_ws/src/cpp_general_pkg" does not exist.
+[0.049s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.051s] gmake: *** [Makefile:431：cmake_check_build_system] 错误 1
+[0.226s] Invoked command in '/home/robot/ros2_cr5_sim_ws/build/cpp_general_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/ros2_cr5_sim_ws/install/python_general_pkg /usr/bin/cmake --build /home/robot/ros2_cr5_sim_ws/build/cpp_general_pkg -- -j18 -l18

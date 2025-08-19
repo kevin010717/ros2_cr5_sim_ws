@@ -1,0 +1,1 @@
+Invoking command in '/home/robot/ros2_cr5_sim_ws/build/dexh13_left': /usr/bin/cmake /home/robot/ros2_cr5_sim_ws/urdf/bullet_simulation_pkg/meshes/dexh13_left -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/robot/ros2_cr5_sim_ws/install/dexh13_left

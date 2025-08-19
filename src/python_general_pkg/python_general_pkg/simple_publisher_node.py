@@ -4,6 +4,7 @@ from rclpy.node import Node
 from sensor_msgs.msg import JointState
 import math
 import time
+import random
 
 class FakeJointStatePublisher(Node):
     def __init__(self):
@@ -40,7 +41,8 @@ class FakeJointStatePublisher(Node):
         joint_state.name = self.joint_names
 
         # 模拟关节数据：使用正弦函数变化
-        joint_state.position = [math.sin(elapsed + i) for i in range(6)]
+        # joint_state.position = [math.sin(elapsed + i) for i in range(6)]
+        joint_state.position = [random.uniform(-1.57, 1.57) for _ in range(6)]
         joint_state.velocity = [math.cos(elapsed + i) for i in range(6)]
         joint_state.effort = [0.5 * math.sin(elapsed + i) for i in range(6)]
 
