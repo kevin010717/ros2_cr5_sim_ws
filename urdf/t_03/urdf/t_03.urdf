@@ -1,0 +1,1439 @@
+<?xml version="1.0"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="t_03">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="3.3307E-16 -3.4694E-18 0.10391"
+        rpy="0 0 0" />
+      <mass
+        value="66" />
+      <inertia
+        ixx="1.8389"
+        ixy="-6.5839E-15"
+        ixz="1.1552E-14"
+        iyy="3.7207"
+        iyz="6.2081E-19"
+        izz="5.1091" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://t_03/meshes/visual/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.15294 0.59216 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://t_03/meshes/visual/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="wheel_q1_link">
+    <inertial>
+      <origin
+        xyz="-2.7756E-17 2.7756E-17 1.3878E-17"
+        rpy="0 0 0" />
+      <mass
+        value="0.15303" />
+      <inertia
+        ixx="0.00010785"
+        ixy="-3.5759E-19"
+        ixz="-1.3636E-20"
+        iyy="0.00019884"
+        iyz="1.1146E-20"
+        izz="0.00010785" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://t_03/meshes/visual/wheel_q1_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.15294 0.58431 0.98824 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://t_03/meshes/visual/wheel_q1_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="wheelq1"
+    type="continuous">
+    <origin
+      xyz="0.24 -0.21 0.04"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="wheel_q1_link" />
+    <axis
+      xyz="0 -1 0" />
+    <limit
+      lower="-3.14"
+      upper="3.14"
+      effort="100"
+      velocity="1" />
+  </joint>
+  <link
+    name="wheel_q2_link">
+    <inertial>
+      <origin
+        xyz="2.7756E-17 -2.7756E-17 2.7756E-17"
+        rpy="0 0 0" />
+      <mass
+        value="0.15303" />
+      <inertia
+        ixx="0.00010785"
+        ixy="-3.1153E-19"
+        ixz="-1.4444E-34"
+        iyy="0.00019884"
+        iyz="-2.0869E-35"
+        izz="0.00010785" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://t_03/meshes/visual/wheel_q2_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.15294 0.58431 0.98824 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://t_03/meshes/visual/wheel_q2_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="wheelq2"
+    type="continuous">
+    <origin
+      xyz="0.24 0.21 0.04"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="wheel_q2_link" />
+    <axis
+      xyz="0 -1 0" />
+    <limit
+      lower="-3.14"
+      upper="3.14"
+      effort="100"
+      velocity="1" />
+  </joint>
+  <link
+    name="wheel_h1_link">
+    <inertial>
+      <origin
+        xyz="0 2.7756E-17 -1.3878E-17"
+        rpy="0 0 0" />
+      <mass
+        value="0.15303" />
+      <inertia
+        ixx="0.00010785"
+        ixy="-3.5949E-19"
+        ixz="-1.4164E-20"
+        iyy="0.00019884"
+        iyz="8.1545E-21"
+        izz="0.00010785" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://t_03/meshes/visual/wheel_h1_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.15294 0.58431 0.98824 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://t_03/meshes/visual/wheel_h1_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="wheelh1"
+    type="continuous">
+    <origin
+      xyz="-0.24 -0.21 0.04"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="wheel_h1_link" />
+    <axis
+      xyz="0 -1 0" />
+    <limit
+      lower="-3.14"
+      upper="3.14"
+      effort="100"
+      velocity="1" />
+  </joint>
+  <link
+    name="wheel_h2_link">
+    <inertial>
+      <origin
+        xyz="-0.48 -0.42 1.7208E-15"
+        rpy="0 0 0" />
+      <mass
+        value="0.15303" />
+      <inertia
+        ixx="0.00010785"
+        ixy="-3.5949E-19"
+        ixz="-1.4164E-20"
+        iyy="0.00019884"
+        iyz="8.1545E-21"
+        izz="0.00010785" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://t_03/meshes/visual/wheel_h2_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.15294 0.58431 0.98824 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://t_03/meshes/visual/wheel_h2_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="wheelh2"
+    type="continuous">
+    <origin
+      xyz="0.24 0.21 0.04"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="wheel_h2_link" />
+    <axis
+      xyz="0 -1 0" />
+    <limit
+      lower="-3.14"
+      upper="3.14"
+      effort="100"
+      velocity="1" />
+  </joint>
+  <link
+    name="link01">
+    <inertial>
+      <origin
+        xyz="-0.17321 0.1 -7.7491E-13"
+        rpy="0 0 0" />
+      <mass
+        value="30.827" />
+      <inertia
+        ixx="0.30612"
+        ixy="0.050964"
+        ixz="5.5376E-16"
+        iyy="0.36496"
+        iyz="-2.0163E-16"
+        izz="0.47143" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://t_03/meshes/visual/link01.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 0.86275 0.027451 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://t_03/meshes/visual/link01.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="leg1"
+    type="revolute">
+    <origin
+      xyz="0 0 0.28"
+      rpy="1.5708 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="link01" />
+    <axis
+      xyz="0 0 -1" />
+    <limit
+      lower="0"
+      upper="3.14"
+      effort="100"
+      velocity="1" />
+  </joint>
+  <link
+    name="link02">
+    <inertial>
+      <origin
+        xyz="0.075 0.1299 -7.7574E-13"
+        rpy="0 0 0" />
+      <mass
+        value="7.2951" />
+      <inertia
+        ixx="0.044963"
+        ixy="0.0017695"
+        ixz="3.9758E-17"
+        iyy="0.047007"
+        iyz="-3.6673E-18"
+        izz="0.057456" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://t_03/meshes/visual/link02.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.91765 0.79608 0.043137 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://t_03/meshes/visual/link02.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="leg2"
+    type="revolute">
+    <origin
+      xyz="-0.34641 0.2 0"
+      rpy="0 0 0" />
+    <parent
+      link="link01" />
+    <child
+      link="link02" />
+    <axis
+      xyz="0 0 -1" />
+    <limit
+      lower="-3.14"
+      upper="0"
+      effort="100"
+      velocity="1" />
+  </joint>
+  <link
+    name="link03">
+    <inertial>
+      <origin
+        xyz="0 1.1102E-16 -7.7546E-13"
+        rpy="0 0 0" />
+      <mass
+        value="0.19007" />
+      <inertia
+        ixx="0.00015007"
+        ixy="-9.1409E-21"
+        ixz="4.7092E-19"
+        iyy="0.00015007"
+        iyz="-1.6122E-22"
+        izz="0.00028748" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://t_03/meshes/visual/link03.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://t_03/meshes/visual/link03.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="body01"
+    type="revolute">
+    <origin
+      xyz="0.15 0.25981 0"
+      rpy="0 0 0" />
+    <parent
+      link="link02" />
+    <child
+      link="link03" />
+    <axis
+      xyz="0 0 -1" />
+    <limit
+      lower="-0.72"
+      upper="1.57"
+      effort="100"
+      velocity="1" />
+  </joint>
+  <link
+    name="link04">
+    <inertial>
+      <origin
+        xyz="9.7432E-07 -3.705E-06 -0.13466"
+        rpy="0 0 0" />
+      <mass
+        value="41.51" />
+      <inertia
+        ixx="1.1976"
+        ixy="-1.5383E-06"
+        ixz="-8.0438E-06"
+        iyy="0.96655"
+        iyz="3.0684E-05"
+        izz="0.71782" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://t_03/meshes/visual/link04.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 0.87451 0.062745 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://t_03/meshes/visual/link04.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="body02"
+    type="revolute">
+    <origin
+      xyz="0 0.482 0"
+      rpy="-1.5708 0 0" />
+    <parent
+      link="link03" />
+    <child
+      link="link04" />
+    <axis
+      xyz="0 0 -1" />
+    <limit
+      lower="-1.57"
+      upper="1.57"
+      effort="100"
+      velocity="1" />
+  </joint>
+  <link
+    name="head_link01">
+    <inertial>
+      <origin
+        xyz="-1.1102E-16 4.3368E-16 -0.035497"
+        rpy="0 0 0" />
+      <mass
+        value="0.44139" />
+      <inertia
+        ixx="0.0004739"
+        ixy="1.5435E-21"
+        ixz="4.9057E-19"
+        iyy="0.0004748"
+        iyz="1.0068E-18"
+        izz="0.00033307" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://t_03/meshes/visual/head_link01.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://t_03/meshes/visual/head_link01.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="head_01"
+    type="revolute">
+    <origin
+      xyz="0.00028264 -0.0010875 0.158"
+      rpy="0 0 0" />
+    <parent
+      link="link04" />
+    <child
+      link="head_link01" />
+    <axis
+      xyz="0 0 -1" />
+    <limit
+      lower="-1.57"
+      upper="1.57"
+      effort="100"
+      velocity="1" />
+  </joint>
+  <link
+    name="head_link02">
+    <inertial>
+      <origin
+        xyz="0.046747 0.051554 -0.0042242"
+        rpy="0 0 0" />
+      <mass
+        value="2.3839" />
+      <inertia
+        ixx="0.0072555"
+        ixy="0.00021604"
+        ixz="-1.4145E-10"
+        iyy="0.0061064"
+        iyz="3.2633E-11"
+        izz="0.0070953" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://t_03/meshes/visual/head_link02.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://t_03/meshes/visual/head_link02.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="head_02"
+    type="revolute">
+    <origin
+      xyz="0 0 0"
+      rpy="1.5708 0 0" />
+    <parent
+      link="head_link01" />
+    <child
+      link="head_link02" />
+    <axis
+      xyz="0 0 -1" />
+    <limit
+      lower="-1.57"
+      upper="1.2"
+      effort="100"
+      velocity="1" />
+  </joint>
+  <link
+    name="arm_link01">
+    <inertial>
+      <origin
+        xyz="-3.5576E-08 0.0054042 -0.016034"
+        rpy="0 0 0" />
+      <mass
+        value="0.34694" />
+      <inertia
+        ixx="0.0010089"
+        ixy="1.5262E-09"
+        ixz="3.3973E-10"
+        iyy="0.0013257"
+        iyz="-3.4842E-05"
+        izz="0.00088567" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://t_03/meshes/visual/arm_link01.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://t_03/meshes/visual/arm_link01.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="arm_01"
+    type="revolute">
+    <origin
+      xyz="0 -0.30045 0"
+      rpy="1.5708 -1.5708 0" />
+    <parent
+      link="link04" />
+    <child
+      link="arm_link01" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-1.57"
+      upper="3.14"
+      effort="100"
+      velocity="1" />
+  </joint>
+  <link
+    name="arm_link02">
+    <inertial>
+      <origin
+        xyz="0.03074 0.087327 4.2328E-06"
+        rpy="0 0 0" />
+      <mass
+        value="0.61584" />
+      <inertia
+        ixx="0.0045371"
+        ixy="-0.00027889"
+        ixz="1.6774E-07"
+        iyy="0.0021668"
+        iyz="3.9648E-09"
+        izz="0.0042029" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://t_03/meshes/visual/arm_link02.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://t_03/meshes/visual/arm_link02.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="arm_02"
+    type="revolute">
+    <origin
+      xyz="0 0 0"
+      rpy="1.5708 -1.5708 0" />
+    <parent
+      link="arm_link01" />
+    <child
+      link="arm_link02" />
+    <axis
+      xyz="0 0 -1" />
+    <limit
+      lower="0"
+      upper="3.14"
+      effort="100"
+      velocity="1" />
+  </joint>
+  <link
+    name="arm_link03">
+    <inertial>
+      <origin
+        xyz="-2.2584E-08 -0.0028077 0.040051"
+        rpy="0 0 0" />
+      <mass
+        value="0.39092" />
+      <inertia
+        ixx="0.0009419"
+        ixy="1.7114E-09"
+        ixz="3.8991E-10"
+        iyy="0.0010437"
+        iyz="-4.1297E-05"
+        izz="0.00072936" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://t_03/meshes/visual/arm_link03.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://t_03/meshes/visual/arm_link03.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="arm_03"
+    type="revolute">
+    <origin
+      xyz="0.035 0.33 0"
+      rpy="1.5708 -1.5708 0" />
+    <parent
+      link="arm_link02" />
+    <child
+      link="arm_link03" />
+    <axis
+      xyz="0 0 -1" />
+    <limit
+      lower="-1.57"
+      upper="1.57"
+      effort="100"
+      velocity="1" />
+  </joint>
+  <link
+    name="arm_link04">
+    <inertial>
+      <origin
+        xyz="-2.0552E-08 -0.062435 1.6933E-07"
+        rpy="0 0 0" />
+      <mass
+        value="0.44339" />
+      <inertia
+        ixx="0.001941"
+        ixy="-5.3536E-11"
+        ixz="3.5876E-09"
+        iyy="0.0012058"
+        iyz="-6.7104E-10"
+        izz="0.0015312" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://t_03/meshes/visual/arm_link04.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://t_03/meshes/visual/arm_link04.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="arm-04"
+    type="revolute">
+    <origin
+      xyz="0 0 0"
+      rpy="1.5708 0 0" />
+    <parent
+      link="arm_link03" />
+    <child
+      link="arm_link04" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="0"
+      upper="3.14"
+      effort="100"
+      velocity="1" />
+  </joint>
+  <link
+    name="arm_link05">
+    <inertial>
+      <origin
+        xyz="1.3912E-07 -1.542E-07 -0.29"
+        rpy="0 0 0" />
+      <mass
+        value="0.44326" />
+      <inertia
+        ixx="0.0039374"
+        ixy="3.02E-10"
+        ixz="-9.4847E-09"
+        iyy="0.0039374"
+        iyz="-8.6087E-09"
+        izz="0.00069636" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://t_03/meshes/visual/arm_link05.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://t_03/meshes/visual/arm_link05.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="arm_05"
+    type="revolute">
+    <origin
+      xyz="0 0 0"
+      rpy="-1.5708 0 0" />
+    <parent
+      link="arm_link04" />
+    <child
+      link="arm_link05" />
+    <axis
+      xyz="0 0 -1" />
+    <limit
+      lower="-1.57"
+      upper="1.57"
+      effort="100"
+      velocity="1" />
+  </joint>
+  <link
+    name="arm_link06">
+    <inertial>
+      <origin
+        xyz="-5.5511E-17 2.2764E-08 2.2764E-08"
+        rpy="0 0 0" />
+      <mass
+        value="0.057498" />
+      <inertia
+        ixx="5.3646E-05"
+        ixy="2.7951E-11"
+        ixz="-2.7951E-11"
+        iyy="2.8287E-05"
+        iyz="2.9791E-17"
+        izz="2.8287E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://t_03/meshes/visual/arm_link06.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://t_03/meshes/visual/arm_link06.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="arm_06"
+    type="revolute">
+    <origin
+      xyz="0 0 -0.42"
+      rpy="1.5708 -1.5708 0" />
+    <parent
+      link="arm_link05" />
+    <child
+      link="arm_link06" />
+    <axis
+      xyz="0 0 -1" />
+    <limit
+      lower="-0.8"
+      upper="0.8"
+      effort="100"
+      velocity="1" />
+  </joint>
+  <link
+    name="arm_link07">
+    <inertial>
+      <origin
+        xyz="-0.11023 0.0090929 0.0075001"
+        rpy="0 0 0" />
+      <mass
+        value="0.43724" />
+      <inertia
+        ixx="0.00021901"
+        ixy="1.3407E-05"
+        ixz="-8.4232E-07"
+        iyy="0.00051435"
+        iyz="-4.8165E-05"
+        izz="0.00039367" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://t_03/meshes/visual/arm_link07.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.75294 0.75294 0.75294 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://t_03/meshes/visual/arm_link07.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="arm_07"
+    type="revolute">
+    <origin
+      xyz="0 0 0"
+      rpy="1.5708 0 0" />
+    <parent
+      link="arm_link06" />
+    <child
+      link="arm_link07" />
+    <axis
+      xyz="0 0 -1" />
+    <limit
+      lower="-1.57"
+      upper="1.57"
+      effort="100"
+      velocity="1" />
+  </joint>
+  <link
+    name="armz_link01">
+    <inertial>
+      <origin
+        xyz="3.5576E-08 0.0054042 0.016034"
+        rpy="0 0 0" />
+      <mass
+        value="0.34694" />
+      <inertia
+        ixx="0.0010089"
+        ixy="-1.5262E-09"
+        ixz="3.3973E-10"
+        iyy="0.0013257"
+        iyz="3.4842E-05"
+        izz="0.00088567" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://t_03/meshes/visual/armz_link01.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://t_03/meshes/visual/armz_link01.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="armz_01"
+    type="revolute">
+    <origin
+      xyz="0 0.30045 0"
+      rpy="1.5708 -1.5708 0" />
+    <parent
+      link="link04" />
+    <child
+      link="armz_link01" />
+    <axis
+      xyz="0 0 -1" />
+    <limit
+      lower="-1.57"
+      upper="3.14"
+      effort="100"
+      velocity="1" />
+  </joint>
+  <link
+    name="armz_link02">
+    <inertial>
+      <origin
+        xyz="-0.03074 0.087327 -1.3426E-06"
+        rpy="0 0 0" />
+      <mass
+        value="0.61584" />
+      <inertia
+        ixx="0.0045371"
+        ixy="0.00027889"
+        ixz="1.6774E-07"
+        iyy="0.0021668"
+        iyz="-3.9638E-09"
+        izz="0.0042029" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://t_03/meshes/visual/armz_link02.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://t_03/meshes/visual/armz_link02.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="armz_02"
+    type="revolute">
+    <origin
+      xyz="0 0 0"
+      rpy="1.5708 -1.5708 0" />
+    <parent
+      link="armz_link01" />
+    <child
+      link="armz_link02" />
+    <axis
+      xyz="0 0 -1" />
+    <limit
+      lower="0"
+      upper="3.14"
+      effort="100"
+      velocity="1" />
+  </joint>
+  <link
+    name="armz_link03">
+    <inertial>
+      <origin
+        xyz="2.2584E-08 0.0028077 0.040051"
+        rpy="0 0 0" />
+      <mass
+        value="0.39092" />
+      <inertia
+        ixx="0.0009419"
+        ixy="1.7114E-09"
+        ixz="-3.8991E-10"
+        iyy="0.0010437"
+        iyz="4.1297E-05"
+        izz="0.00072936" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://t_03/meshes/visual/armz_link03.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://t_03/meshes/visual/armz_link03.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="armz_03"
+    type="revolute">
+    <origin
+      xyz="-0.035 0.33 0"
+      rpy="1.5708 -1.5708 0" />
+    <parent
+      link="armz_link02" />
+    <child
+      link="armz_link03" />
+    <axis
+      xyz="0 0 -1" />
+    <limit
+      lower="-1.57"
+      upper="1.57"
+      effort="100"
+      velocity="1" />
+  </joint>
+  <link
+    name="armz_link04">
+    <inertial>
+      <origin
+        xyz="-2.468E-08 -0.062435 5.9979E-07"
+        rpy="0 0 0" />
+      <mass
+        value="0.44339" />
+      <inertia
+        ixx="0.001941"
+        ixy="-1.4049E-10"
+        ixz="3.6382E-09"
+        iyy="0.0012058"
+        iyz="-6.7105E-10"
+        izz="0.0015312" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://t_03/meshes/visual/armz_link04.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://t_03/meshes/visual/armz_link04.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="armz_04"
+    type="revolute">
+    <origin
+      xyz="0 0 0"
+      rpy="1.5708 0 0" />
+    <parent
+      link="armz_link03" />
+    <child
+      link="armz_link04" />
+    <axis
+      xyz="0 0 -1" />
+    <limit
+      lower="0"
+      upper="3.14"
+      effort="100"
+      velocity="1" />
+  </joint>
+  <link
+    name="armz_link05">
+    <inertial>
+      <origin
+        xyz="1.3912E-07 -6.1031E-08 -0.29"
+        rpy="0 0 0" />
+      <mass
+        value="0.44326" />
+      <inertia
+        ixx="0.0039374"
+        ixy="-3.02E-10"
+        ixz="9.4847E-09"
+        iyy="0.0039374"
+        iyz="-8.6087E-09"
+        izz="0.00069636" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://t_03/meshes/visual/armz_link05.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://t_03/meshes/visual/armz_link05.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="armz_05"
+    type="revolute">
+    <origin
+      xyz="0 0 0"
+      rpy="-1.5708 0 0" />
+    <parent
+      link="armz_link04" />
+    <child
+      link="armz_link05" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-1.57"
+      upper="1.57"
+      effort="100"
+      velocity="1" />
+  </joint>
+  <link
+    name="armz_link06">
+    <inertial>
+      <origin
+        xyz="-5.5511E-17 -2.2764E-08 -2.3799E-07"
+        rpy="0 0 0" />
+      <mass
+        value="0.057498" />
+      <inertia
+        ixx="5.3646E-05"
+        ixy="-2.7951E-11"
+        ixz="2.7951E-11"
+        iyy="2.8287E-05"
+        iyz="2.9793E-17"
+        izz="2.8287E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://t_03/meshes/visual/armz_link06.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://t_03/meshes/visual/armz_link06.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="armz_06"
+    type="revolute">
+    <origin
+      xyz="0 0 -0.42"
+      rpy="1.5708 -1.5708 0" />
+    <parent
+      link="armz_link05" />
+    <child
+      link="armz_link06" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-0.8"
+      upper="0.8"
+      effort="100"
+      velocity="1" />
+  </joint>
+  <link
+    name="armz_link07">
+    <inertial>
+      <origin
+        xyz="-0.10907 -0.0082381 0.0016428"
+        rpy="0 0 0" />
+      <mass
+        value="0.39709" />
+      <inertia
+        ixx="0.00021555"
+        ixy="-1.3389E-05"
+        ixz="1.2449E-06"
+        iyy="0.00051382"
+        iyz="2.7065E-05"
+        izz="0.00036858" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://t_03/meshes/visual/armz_link07.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.75294 0.75294 0.75294 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://t_03/meshes/visual/armz_link07.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="armz_07"
+    type="revolute">
+    <origin
+      xyz="0 0 0"
+      rpy="1.5708 0 0" />
+    <parent
+      link="armz_link06" />
+    <child
+      link="armz_link07" />
+    <axis
+      xyz="0 0 -1" />
+    <limit
+      lower="-1.57"
+      upper="1.57"
+      effort="100"
+      velocity="1" />
+  </joint>
+</robot>
