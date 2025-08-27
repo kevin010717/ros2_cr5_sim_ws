@@ -1,1 +1,0 @@
-python_general_pkg
